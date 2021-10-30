@@ -7,6 +7,7 @@ const RouterView = (): JSX.Element => (
     <Route path="/react">
       <poc-microfrontend-react />
     </Route>
+
     <Route path="/vue">
       <h3 className="font-semibold text-lg">
         Vue web component, loaded from the React container project.
@@ -15,6 +16,16 @@ const RouterView = (): JSX.Element => (
       </h3>
       <vue-wc />
     </Route>
+
+    <Route path="/randomcats-component">
+      <h3 className="font-semibold text-lg">
+        Random Cute Cats
+        {' '}
+        <a href="https://github.com/NathanaelHermanto/RandomCats" target="_blank" className="text-blue-400 font-mono font-light" rel="noreferrer">Link to github repo of this project</a>
+      </h3>
+      <randomcats-component />
+    </Route>
+
     <Route path="/">
       <Home />
     </Route>
