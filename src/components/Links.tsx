@@ -15,7 +15,7 @@ const getLiClasses = (isActive: boolean) => [
 ].reduce((a, b) => `${a} ${b}`, '');
 
 const Links = (): JSX.Element => {
-  const ROUTES = [{ path: '/', text: 'Home' }, { path: '/react', text: 'React' }];
+  const ROUTES = [{ path: '/', text: 'Home' }, { path: '/vue', text: 'Vue' }, { path: '/react', text: 'React' }];
 
   const location = useLocation();
 
