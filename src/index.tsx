@@ -1,4 +1,6 @@
 import './index.css';
+
+import './wc/poc-microfrontend-react';
 import './wc/vue-wc.min.js';
 
 import ReactDOM from 'react-dom';

@@ -4,6 +4,9 @@ import Home from './Home';
 
 const RouterView = (): JSX.Element => (
   <Switch>
+    <Route path="/react">
+      <poc-microfrontend-react />
+    </Route>
     <Route path="/vue">
       <h3 className="font-semibold text-lg">
         Vue web component, loaded from the React container project.
@@ -12,7 +15,6 @@ const RouterView = (): JSX.Element => (
       </h3>
       <vue-wc />
     </Route>
-    <Route path="/users" />
     <Route path="/">
       <Home />
     </Route>
