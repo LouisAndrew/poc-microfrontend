@@ -4,6 +4,7 @@ module.exports = {
     es2021: true,
     jest: true,
   },
+  ignorePatterns: ['**/wc/**.js'],
   extends: ['plugin:react/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
   parserOptions: {

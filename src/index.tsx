@@ -1,4 +1,5 @@
 import './index.css';
+import './wc/vue-wc.min.js';
 
 import ReactDOM from 'react-dom';
 
