@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: ['plugin:react/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
+  ignorePatterns: ['**/wc/**'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

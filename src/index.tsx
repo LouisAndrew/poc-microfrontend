@@ -1,4 +1,5 @@
 import './index.css';
+import './wc/poc-microfrontend-react';
 
 import ReactDOM from 'react-dom';
 
