@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/louisandrew.github.io/poc-microfrontend/static/css/main.1be44db1.chunk.css",
-    "main.js": "/louisandrew.github.io/poc-microfrontend/static/js/main.80b416d3.chunk.js",
-    "main.js.map": "/louisandrew.github.io/poc-microfrontend/static/js/main.80b416d3.chunk.js.map",
-    "runtime-main.js": "/louisandrew.github.io/poc-microfrontend/static/js/runtime-main.4ae0ca56.js",
-    "runtime-main.js.map": "/louisandrew.github.io/poc-microfrontend/static/js/runtime-main.4ae0ca56.js.map",
-    "static/js/2.7389d13e.chunk.js": "/louisandrew.github.io/poc-microfrontend/static/js/2.7389d13e.chunk.js",
-    "static/js/2.7389d13e.chunk.js.map": "/louisandrew.github.io/poc-microfrontend/static/js/2.7389d13e.chunk.js.map",
-    "static/js/3.25c7a5cf.chunk.js": "/louisandrew.github.io/poc-microfrontend/static/js/3.25c7a5cf.chunk.js",
-    "static/js/3.25c7a5cf.chunk.js.map": "/louisandrew.github.io/poc-microfrontend/static/js/3.25c7a5cf.chunk.js.map",
-    "index.html": "/louisandrew.github.io/poc-microfrontend/index.html",
-    "static/css/main.1be44db1.chunk.css.map": "/louisandrew.github.io/poc-microfrontend/static/css/main.1be44db1.chunk.css.map",
-    "static/js/2.7389d13e.chunk.js.LICENSE.txt": "/louisandrew.github.io/poc-microfrontend/static/js/2.7389d13e.chunk.js.LICENSE.txt",
-    "static/js/main.80b416d3.chunk.js.LICENSE.txt": "/louisandrew.github.io/poc-microfrontend/static/js/main.80b416d3.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.1be44db1.chunk.css",
+    "main.js": "/static/js/main.80b416d3.chunk.js",
+    "main.js.map": "/static/js/main.80b416d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f5dd3a4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f5dd3a4.js.map",
+    "static/js/2.7389d13e.chunk.js": "/static/js/2.7389d13e.chunk.js",
+    "static/js/2.7389d13e.chunk.js.map": "/static/js/2.7389d13e.chunk.js.map",
+    "static/js/3.25c7a5cf.chunk.js": "/static/js/3.25c7a5cf.chunk.js",
+    "static/js/3.25c7a5cf.chunk.js.map": "/static/js/3.25c7a5cf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1be44db1.chunk.css.map": "/static/css/main.1be44db1.chunk.css.map",
+    "static/js/2.7389d13e.chunk.js.LICENSE.txt": "/static/js/2.7389d13e.chunk.js.LICENSE.txt",
+    "static/js/main.80b416d3.chunk.js.LICENSE.txt": "/static/js/main.80b416d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ae0ca56.js",
+    "static/js/runtime-main.6f5dd3a4.js",
     "static/js/2.7389d13e.chunk.js",
     "static/css/main.1be44db1.chunk.css",
     "static/js/main.80b416d3.chunk.js"
