@@ -26,6 +26,14 @@ const RouterView = (): JSX.Element => (
       <randomcats-component />
     </Route>
 
+    <Route path="/bmi-tracker">
+      <h3 className="font-semibold text-lg">
+        BMI Tracker
+      </h3>
+      <a href="https://github.com/sunanmau5/bmi-tracker" target="_blank" className="text-blue-400 font-mono font-light" rel="noreferrer">Link to github repo of this project</a>
+      <bmi-tracker />
+    </Route>
+
     <Route path="/">
       <Home />
     </Route>
