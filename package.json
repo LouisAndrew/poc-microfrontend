@@ -1,6 +1,6 @@
 {
   "name": "poc-microfrontend",
-  "homepage": "http://louisandrew.github.io/microfrontend-poc",
+  "homepage": "http://louisandrew.github.io/poc-microfrontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
