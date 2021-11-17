@@ -18,7 +18,6 @@ const Links = (): JSX.Element => {
   const ROUTES = [
     { path: '/', text: 'Home' },
     { path: '/vue', text: 'Vue' },
-    { path: '/react', text: 'React' },
     { path: '/randomcats-component', text: 'RandomCats' },
     { path: '/bmi-tracker', text: 'BMI' },
   ];

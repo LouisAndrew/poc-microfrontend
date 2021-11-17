@@ -4,9 +4,6 @@ import Home from './Home';
 
 const RouterView = (): JSX.Element => (
   <Switch>
-    <Route path="/react">
-      <poc-microfrontend-react />
-    </Route>
 
     <Route path="/vue">
       <h3 className="font-semibold text-lg">

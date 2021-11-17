@@ -1,7 +1,4 @@
 import './index.css';
-
-import './wc/poc-microfrontend-react';
-import './wc/vue-wc.min.js';
 import './wc/random-cats';
 import './wc/bmi-tracker';
 
