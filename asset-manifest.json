@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/microfrontend-poc/static/css/main.5fe42147.chunk.css",
-    "main.js": "/microfrontend-poc/static/js/main.8b9b102b.chunk.js",
-    "main.js.map": "/microfrontend-poc/static/js/main.8b9b102b.chunk.js.map",
-    "runtime-main.js": "/microfrontend-poc/static/js/runtime-main.371c00cf.js",
-    "runtime-main.js.map": "/microfrontend-poc/static/js/runtime-main.371c00cf.js.map",
-    "static/js/2.1a99eff1.chunk.js": "/microfrontend-poc/static/js/2.1a99eff1.chunk.js",
-    "static/js/2.1a99eff1.chunk.js.map": "/microfrontend-poc/static/js/2.1a99eff1.chunk.js.map",
-    "static/js/3.d580a1f6.chunk.js": "/microfrontend-poc/static/js/3.d580a1f6.chunk.js",
-    "static/js/3.d580a1f6.chunk.js.map": "/microfrontend-poc/static/js/3.d580a1f6.chunk.js.map",
-    "index.html": "/microfrontend-poc/index.html",
-    "static/css/main.5fe42147.chunk.css.map": "/microfrontend-poc/static/css/main.5fe42147.chunk.css.map",
-    "static/js/2.1a99eff1.chunk.js.LICENSE.txt": "/microfrontend-poc/static/js/2.1a99eff1.chunk.js.LICENSE.txt",
-    "static/js/main.8b9b102b.chunk.js.LICENSE.txt": "/microfrontend-poc/static/js/main.8b9b102b.chunk.js.LICENSE.txt"
+    "main.css": "/poc-microfrontend/static/css/main.5fe42147.chunk.css",
+    "main.js": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js",
+    "main.js.map": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js.map",
+    "runtime-main.js": "/poc-microfrontend/static/js/runtime-main.6d688fc5.js",
+    "runtime-main.js.map": "/poc-microfrontend/static/js/runtime-main.6d688fc5.js.map",
+    "static/js/2.1a99eff1.chunk.js": "/poc-microfrontend/static/js/2.1a99eff1.chunk.js",
+    "static/js/2.1a99eff1.chunk.js.map": "/poc-microfrontend/static/js/2.1a99eff1.chunk.js.map",
+    "static/js/3.d580a1f6.chunk.js": "/poc-microfrontend/static/js/3.d580a1f6.chunk.js",
+    "static/js/3.d580a1f6.chunk.js.map": "/poc-microfrontend/static/js/3.d580a1f6.chunk.js.map",
+    "index.html": "/poc-microfrontend/index.html",
+    "static/css/main.5fe42147.chunk.css.map": "/poc-microfrontend/static/css/main.5fe42147.chunk.css.map",
+    "static/js/2.1a99eff1.chunk.js.LICENSE.txt": "/poc-microfrontend/static/js/2.1a99eff1.chunk.js.LICENSE.txt",
+    "static/js/main.8b9b102b.chunk.js.LICENSE.txt": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.371c00cf.js",
+    "static/js/runtime-main.6d688fc5.js",
     "static/js/2.1a99eff1.chunk.js",
     "static/css/main.5fe42147.chunk.css",
     "static/js/main.8b9b102b.chunk.js"
