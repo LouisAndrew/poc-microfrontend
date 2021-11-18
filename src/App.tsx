@@ -5,7 +5,7 @@ import RouterView from './components/RouterView';
 
 const App = (): JSX.Element => (
   <div className="app px-4">
-    <Router>
+    <Router basename="/poc-microfrontend">
       <Links />
       <RouterView />
     </Router>
