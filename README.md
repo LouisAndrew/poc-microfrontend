@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Proof of Concept - Micro frontend
+[**Demo site**](https://louisandrew.github.io/poc-microfrontend/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Background
+The project was initially created as a proof of concept and an introduction of the micro frontend architecture for the new [ReAGEnT frontend](https://github.com/ReAGEnT-WiSe2021-22/frontend-v2). We are trying to build multiple front end applications that are composed into a bigger user-facing end application. We try to avoid building a large, monolithic application.
 
-## Available Scripts
+Benefits of micro front end are:
+- Decoupled code base and run time
+- Independent development
+- Technology agnostic
+- Independent deployment (multi-repo approach)
 
-In the project directory, you can run:
+## Installation and Usage
+**Prerequisites:** Please make sure that `node v.14` or higher is installed in your local machine.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Run  `npm install`  to install the required dependency.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run `npm start` to start the development server.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Architecture 
+As we are using the micro front end architecture, this project / repository acts as the container project that "*contains*" and loads the individual micro frontends. This container app is built with [React](https://reactjs.org/), and it loads the micro front end with two different approaches:
+- Loading the bundled JS file from the local folder (`src/wc`)
+- Loading the bundled JS file from a remote source (in this case, from site hosted on Github Pages)
 
-### `yarn build`
+All the individual micro front ends are bundled into a single JS file and converted into a web component, so the project could be framework agnostic.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<pre>
+Container
+  | | |
+  | | |- Counter app. Built in Vue (remote source)
+  | |--- Rancdom cats app. Built in React + direflow (local import) by <a src="https://github.com/NathanaelHermanto" target="_blank">NathanaelHermanto</a>
+  |----- BMI calculator app. Built in React + direflow (local import) by <a src="https://github.com/sunanmau5" target="_blank">sunanmau5</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Todos
+- [ ] Fix publish pipeline
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Materials
+- https://martinfowler.com/articles/micro-frontends.html
+- https://micro-frontends.org/
+- https://www.webcomponents.org/introduction
+- https://developer.mozilla.org/en-US/docs/Web/Web_Components
