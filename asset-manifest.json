@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/poc-microfrontend/static/css/main.5fe42147.chunk.css",
-    "main.js": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js",
-    "main.js.map": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js.map",
+    "main.js": "/poc-microfrontend/static/js/main.771c853d.chunk.js",
+    "main.js.map": "/poc-microfrontend/static/js/main.771c853d.chunk.js.map",
     "runtime-main.js": "/poc-microfrontend/static/js/runtime-main.6d688fc5.js",
     "runtime-main.js.map": "/poc-microfrontend/static/js/runtime-main.6d688fc5.js.map",
     "static/js/2.1a99eff1.chunk.js": "/poc-microfrontend/static/js/2.1a99eff1.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/poc-microfrontend/index.html",
     "static/css/main.5fe42147.chunk.css.map": "/poc-microfrontend/static/css/main.5fe42147.chunk.css.map",
     "static/js/2.1a99eff1.chunk.js.LICENSE.txt": "/poc-microfrontend/static/js/2.1a99eff1.chunk.js.LICENSE.txt",
-    "static/js/main.8b9b102b.chunk.js.LICENSE.txt": "/poc-microfrontend/static/js/main.8b9b102b.chunk.js.LICENSE.txt"
+    "static/js/main.771c853d.chunk.js.LICENSE.txt": "/poc-microfrontend/static/js/main.771c853d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6d688fc5.js",
     "static/js/2.1a99eff1.chunk.js",
     "static/css/main.5fe42147.chunk.css",
-    "static/js/main.8b9b102b.chunk.js"
+    "static/js/main.771c853d.chunk.js"
   ]
 }
